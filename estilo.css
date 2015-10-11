@@ -98,6 +98,33 @@ header{
 	color: rgba(255,255,255,1) !important;
 }
 
+/* Footer */
+
+footer{
+	background-color: rgba(38,38,38,1);
+	color: rgba(255,255,255,1);
+}
+
+.footer-list{
+	text-align: center; 
+	list-style-position:inside;
+	margin-top: 20px;
+	padding: 0px;
+}
+
+.footer-list li{
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.footer-title{
+	font-size: 22px;
+}
+
+.footer-heading{
+	font-size: 18px;
+}
+
 /* Configurando header para las 5 columnas */
 .col-xs-20,
 .col-sm-20,
