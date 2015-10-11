@@ -2,6 +2,8 @@ body{
 	margin: 0;
 	padding: 0;
 }
+
+/* Header */
 header{
 	text-align: center;
 }
@@ -32,7 +34,7 @@ header{
 	color: rgba(92,88,77,1);
 	font-size: 22px;
 	font-weight: bold;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 /* Categories */
@@ -87,6 +89,10 @@ header{
 	
 }
 
+.form-horizontal{
+	margin-top: 5px;
+}
+
 .btn-send{
 	border-radius: 0px !important;
 	background-color: rgba(38,38,38,1);
@@ -125,7 +131,7 @@ footer{
 	font-size: 18px;
 }
 
-/* Configurando header para las 5 columnas */
+/* Header 5 columns */
 .col-xs-20,
 .col-sm-20,
 .col-md-20,
