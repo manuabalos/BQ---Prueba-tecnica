@@ -4,7 +4,6 @@ body{
 }
 header{
 	text-align: center;
-	border: 1px solid black;
 }
 
 .div-menu-sup{
@@ -19,6 +18,84 @@ header{
 	color: rgba(92,88,77,1);
 	font-size: 22px;
 	font-weight: bold;
+}
+
+.part-left{
+	padding: 0 !important;
+}
+
+.section-row{
+	background-color: rgba(240,240,240,1);
+}
+
+.section-title{
+	color: rgba(92,88,77,1);
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+/* Categories */
+.ul-menu-left {
+	color: rgba(255,255,255,1);
+
+}
+.ul-menu-left li{
+	background-color: rgba(38,38,38,1);
+	font-size: 16px;
+	margin-top: 0px !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+}
+
+.li-menu-left-hover{
+	background-color: rgba(135,135,135,1) !important;	
+}
+
+/* Catalogue */
+
+.div-product{
+
+	background-color: rgba(83,83,83,1);
+	margin: 10px 10px 10px 15px;
+	height: 175px;
+	color: rgba(255,255,255,1);
+
+	-webkit-transform-style: preserve-3d;
+ 	-moz-transform-style: preserve-3d;
+  	transform-style: preserve-3d;
+
+}
+
+.div-product p{
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+/* Featured product */
+.featured{
+	color: rgba(124,102,109,1);
+}
+.featured-title{
+	font-weight: bold;
+}
+
+.div-product-featured{
+	width: 270px !important;
+	
+}
+
+.btn-send{
+	border-radius: 0px !important;
+	background-color: rgba(38,38,38,1);
+	color: rgba(255,255,255,1);
+}
+
+.btn-send:hover{
+	background-color: rgba(83,83,83,1);
+	color: rgba(255,255,255,1) !important;
 }
 
 /* Configurando header para las 5 columnas */
