@@ -1,1 +1,56 @@
-estilo.css
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	text-align: center;
+	border: 1px solid black;
+}
+
+.div-menu-sup{
+	background-color: rgba(38,38,38,1);
+	color: rgba(255,255,255,1);
+	font-size: 16px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.div-logo{
+	color: rgba(92,88,77,1);
+	font-size: 22px;
+	font-weight: bold;
+}
+
+/* Configurando header para las 5 columnas */
+.col-xs-20,
+.col-sm-20,
+.col-md-20,
+.col-lg-20 {
+   position: relative;
+   min-height: 1px;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+
+.col-xs-20 {
+   width: 20%;
+   float: left;
+}
+@media (min-width: 768px) {
+   .col-sm-20 {
+      width: 20%;
+      float: left;
+   }
+}
+@media (min-width: 992px) {
+   .col-md-20 {
+      width: 20%;
+      float: left;
+   }
+}
+@media (min-width: 1200px) {
+   .col-lg-20 {
+      width: 20%;
+      float: left;
+   }
+}
